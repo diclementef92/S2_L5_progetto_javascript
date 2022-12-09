@@ -72,6 +72,12 @@ main .special-botton {
 .carosello img {
   width: 120px;
 }
+.link-shop {
+  font-size: 10px;
+  color: rgb(19, 83, 95);
+  text-decoration: none;
+  font-weight: bold;
+}
 /* FOOTER */
 .footer-logo {
   width: 100px;
