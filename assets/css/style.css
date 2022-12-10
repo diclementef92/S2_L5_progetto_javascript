@@ -51,7 +51,7 @@ nav a {
 }
 /* container */
 .container {
-  width: 90%;
+  width: 95%;
   margin: 0 auto 0 auto;
 }
 .gift-cards {
@@ -81,28 +81,46 @@ nav a {
 }
 .gifts-photos-box {
   margin-top: 40px;
-  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
 }
 
 .gifts-photos {
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
+  max-width: 100%;
+  min-width: 100%;
 }
 .gifts-photos img {
-  width: 150px;
   height: 200px;
+  width: 140px;
   object-fit: cover;
   border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px grey; /* offset-x | offset-y | blur-radius | color */
   margin-left: 8px;
   margin-right: 8px;
 }
+.product-category {
+  text-align: center;
+  /* width: 95%; */
+}
 
+.product-category img {
+  max-width: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+/* footer */
 .link-to-top {
   display: flex;
   justify-content: center;
   padding: 15px;
 }
+
 footer .logo {
   display: flex;
   justify-content: center;
