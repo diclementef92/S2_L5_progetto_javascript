@@ -1,40 +1,22 @@
-/* GENERAL */
+/* General */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-.align-center {
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
 
-/* HEADER */
-header {
-  text-align: left;
-  padding: 10px 0 10px 20px;
-}
-
-.logo {
-  width: 100px;
-}
-/* NAV */
-nav {
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-nav a {
-  margin-left: 20px;
-  color: white;
-  text-decoration: none;
-}
-/* COLORS */
-.bg-light-blue,
-.bg-light-blue a {
-  background-color: rgb(54, 71, 89);
+.font-white * {
   color: rgb(244, 255, 255);
+}
+h2 {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: small;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .bg-blue {
   background-color: rgb(34, 47, 63);
@@ -46,54 +28,86 @@ nav a {
 .bg-grey {
   background-color: rgb(233, 237, 238);
 }
-.font-color-white {
-  color: white;
-}
 
-/* MAIN */
-main .special-botton {
-  width: 90%;
-  margin: 20px auto 20px auto;
-  text-decoration: none;
+.bg-light-blue {
+  background-color: rgb(54, 71, 89);
 }
-
-.holiday-banner {
-  width: 90%;
-  height: 100px;
-  margin: 2px auto 2px auto;
-  color: white;
-  background-image: url("../img/bg-image.png");
-}
-.categories {
+.bg-white {
   background-color: white;
+}
+/* Header */
+.logo img {
+  width: 80px;
+  padding: 8px;
+}
+/* Nav */
+nav {
+  padding: 5px;
+}
+nav a {
+  text-decoration: none;
+  font-size: small;
+  padding-left: 10px;
+}
+/* container */
+.container {
   width: 90%;
-  margin: 20px auto 20px auto;
-  padding: 2px 10px 5px 15px;
+  margin: 0 auto 0 auto;
 }
-.categories div {
-  /* width: 20%; */
-  margin: 10px auto 10px auto;
+.gift-cards {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
 }
-.categories img {
-  width: 145px;
-  height: 180px;
-  padding: 10px;
-  border-radius: 20px;
-  object-fit: cover;
+.holiday-banner {
+  height: 120px;
+  background-image: url("../img/bg-image.png");
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+/* photos */
+.shop-link {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.gifts-photos-box {
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
-.link-shop {
-  font-size: 10px;
-  color: rgb(19, 83, 95);
-  text-decoration: none;
-  font-weight: bold;
+.gifts-photos {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
 }
-/* FOOTER */
-.footer-logo {
-  width: 100px;
-  padding: 40px;
+.gifts-photos img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .link-to-top {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+footer .logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+footer .logo img {
+  width: 100px;
 }
