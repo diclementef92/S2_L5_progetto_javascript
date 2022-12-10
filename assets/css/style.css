@@ -60,7 +60,6 @@ nav a {
   display: flex;
   justify-content: center;
   font-size: small;
-  /* margin-top: 20px; */
   margin-bottom: 20px;
   padding: 5px;
 }
@@ -128,7 +127,7 @@ nav a {
 footer .logo {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 35px;
 }
 footer .logo img {
   width: 100px;
